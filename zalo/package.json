@@ -1,23 +1,13 @@
 {
-	"name": "zalo",
-	"version": "1.0.0",
-	"description": "Franz Zalo Plugin",
-	"main": "index.js",
-	"author": "VoolaTech Team",
-	"license": "MIT",
-	"config": {
-		"serviceURL": "http://web.zaloapp.com/login",
-		"serviceName": "Zalo",
-		"message": "The new market-leading messaging app with amazing features.",
-		"popup": [],
-		"hasNotificationSound": true,
-		"hasIndirectMessages": false,
-		"hasTeamID": false,
-		"customURL": false,
-		"hostedOnly": false,
-		"webviewOptions": {
-			"disablewebsecurity": ""
-		},
-		"openDevTools": false
-	}
+  "id": "zalo",
+  "name": "Zalo",
+  "version": "1.0.1",
+  "description": "Zalo - Nhắn gửi Yêu Thương",
+  "main": "index.js",
+  "author": "VoolaTech Team <vanquyet94@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/vanquyet94",
+  "config": {
+		"serviceURL": "https://chat.zalo.me"
+  }
 }
